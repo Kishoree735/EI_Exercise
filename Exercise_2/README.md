@@ -89,6 +89,7 @@ The **Rocket Launch Simulator** is a terminal-based Java application simulating 
           | (FileLogger)   |
           +----------------+
 
+```
 
 ## OUTPUT SCREENSHOTS
 ![alt text](image.png)
