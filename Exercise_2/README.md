@@ -94,12 +94,13 @@ The simulator works in **discrete time steps**, showing real-time **fuel, altitu
 
 ```
 ## OUTPUT SCREENSHOTS
+### Initial Launch command with fast forwarding 
 ![alt text](image.png)
 
-**File Logging**
+### File Logging
 ![alt text](image-1.png)
 
-**Reset Command**
+### Reset Command
 ![alt text](image-2.png)
 
 
