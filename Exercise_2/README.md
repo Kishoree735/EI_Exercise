@@ -52,55 +52,28 @@ The simulator works in **discrete time steps**, showing real-time **fuel, altitu
 
 ## Visual Flow Diagram
 
-```text
-          +----------------+
-          |    Simulator   |
-          +--------+-------+
-                   |
-                   v
-         +---------+---------+
-         |   User Input      |
-         | start_checks,     |
-         | launch,           |
-         | fast_forward X,   |
-         | reset             |
-         +---------+---------+
-                   |
-    +--------------+--------------+
-    |                             |
-    v                             v
-+------------+             +------------------+
-|StartChecks |             | LaunchCommand    |
-| Command    |             +--------+---------+
-+------------+                      |
-                   +----------------+
-                   |
-                   v
-          +------------------+
-          |    Rocket        |
-          |----------------- |
-          | - fuel, altitude |
-          | - speed, stage   |
-          | - status         |
-          | - simulateStep() |
-          | - fastForward()  |
-          +--------+---------+
-                   |
-                   v
-          +----------------+
-          | RocketObservers|
-          | (FileLogger)   |
-          +----------------+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/41f94f67-2319-4193-b872-74fbd9261c48" />
 
-```
 ## OUTPUT SCREENSHOTS
-### Initial Launch command with fast forwarding 
-![alt text](image.png)
+
+### Start_checks command
+<img width="1155" height="158" alt="image" src="https://github.com/user-attachments/assets/07b4b770-5383-49d9-87c9-ade2e49e85bc" />
+
+### Launch command with fast_forwarding
+<img width="907" height="225" alt="image" src="https://github.com/user-attachments/assets/ce493b7e-269e-4e56-a3ce-846d44a7be80" />
+
+### Stage 1 to Stage 2 transition
+<img width="637" height="180" alt="image" src="https://github.com/user-attachments/assets/f30dd630-c98f-445e-a36a-772c842fb964" />
 
 ### File Logging
-![alt text](image-1.png)
+<img width="967" height="572" alt="image" src="https://github.com/user-attachments/assets/694501ab-9499-4b00-8ca7-71d4b5e0fccb" />
 
 ### Reset Command
-![alt text](image-2.png)
+<img width="607" height="257" alt="image" src="https://github.com/user-attachments/assets/86349dd0-6924-4bec-a33d-2856a323a24a" />
+
+### Exit Command
+<img width="467" height="72" alt="image" src="https://github.com/user-attachments/assets/a9feae33-a786-4e77-8099-fb6e2c8bfe6b" />
+
+
 
 
